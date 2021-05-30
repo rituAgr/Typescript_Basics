@@ -43,3 +43,52 @@ npm install transcript -g
 '-g' does it globally for all directories in computer. Without '-g' parameter it will just do it for current directory
 
 
+#### General commands - 
+* Compiling transcript file
+```aidl
+tsc <transcript fileName>
+```
+* Running js file locally on terminal
+```aidl
+node <JS fileName>
+```
+* Combining both -
+```aidl
+tsc <transcript fileName> && node <JS fileName>
+``` 
+* Compiling out to new-name js file
+```
+tsc <transcript fileName> --out <Any js filename.js>
+```
+* Continuous ts file watch for changes whenever file changes & saved
+```
+tsc <transcript fileName> --out <Any js filename.js> --watch
+```
+* tsc --help
+
+##### General concept in transcript
+* Default member visibility is public
+* There is readonly access modifier which name suggest. Its value can be defined at 
+time of declaration or inside constructor
+* Transcript class can have only one constructor
+* Shortcut way of assigning member variable via constructor as below
+```
+class abc {
+
+constructor(firstName: string, lastName: string){
+ }
+ 
+}
+```
+* Datatype available - 
+```
+number
+boolean
+string
+tuple
+any (small a, remember)
+class
+interface
+``` 
+* .ts exported files should be preferably stateless.
+
