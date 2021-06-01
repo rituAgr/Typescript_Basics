@@ -1,5 +1,9 @@
 ### Typescript
 
+#### Background & Growth of Javascript and node.js
+
+[click here](./JavaScript.md)
+
 
 #### Problem with Javascript
 - No datatype for variable
