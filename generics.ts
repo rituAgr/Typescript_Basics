@@ -1,6 +1,8 @@
 import {Person} from './classes';
 import * as _ from 'lodash';
 
+//Below any datatype can take any datatype (suppose string) and return any other datatype (say number)
+//Generics is the way to fix it.
 function doTask(args: any): any {
   return args;
 }
@@ -11,7 +13,7 @@ console.log(str);
 //Generic to fix it any one datatype
 
 function doGenericTask<T>(args: T): T {
-return args;
+  return args;
 }
 
 var num = doGenericTask("ritu")

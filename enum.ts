@@ -5,7 +5,6 @@ enum daysOfWeek {
 let day: daysOfWeek
 day=daysOfWeek.Mon
 
-if(day===daysOfWeek.Mon)
-{
-console.log("Goto work")
+if(day===daysOfWeek.Mon) {
+  console.log("Goto work")
 }

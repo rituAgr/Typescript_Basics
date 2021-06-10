@@ -9,9 +9,13 @@ That's when JS started getting popular & thought of to be used for other purpose
 
 #### Popular JS Frameworks - 
 Front end : React, Angular
+
 Mobile development: React native
+
 Back end: Express.js
+
 Database: MongoDB
+
 Hence, now we can full stack development using JS, called as MERN development
 
 #### Nutshell
