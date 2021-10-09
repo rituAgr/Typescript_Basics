@@ -1,5 +1,6 @@
 import {Person} from './classes';
 import * as _ from 'lodash';
+//lodash is javascript utility library made for string functions.
 
 //Below any datatype can take any datatype (suppose string) and return any other datatype (say number)
 //Generics is the way to fix it.

@@ -36,7 +36,7 @@ To handle above JS issue typescript is introduced. Typescript code get transpile
 via Typescript compiler. The typescript compiler is node js program.
 So, we get functionality of JS with less of its problems.
 
-TypeScript -> NodeJS Compiler -> JavaScript -> NodeJS -> Run on Browser
+TypeScript -> Typescript Compiler -> JavaScript -> NodeJS -> Run on Browser
 ____
 
 #### Setting
